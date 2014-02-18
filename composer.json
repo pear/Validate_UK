@@ -1,0 +1,36 @@
+{
+    "authors": [
+        {
+            "email": "arpad@php.net",
+            "name": "Arpad Ray",
+            "role": "Lead"
+        },
+        {
+            "email": "pookey@php.net",
+            "name": "Ian P. Christian",
+            "role": "Lead"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Validate_UK": "./"
+        }
+    },
+    "description": "Validation class for the United Kingdom",
+    "include-path": [
+        "./"
+    ],
+    "license": "New BSD",
+    "name": "pear/validate_uk",
+    "support": {
+        "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Validate_UK",
+        "source": "https://github.com/pear/Validate_UK"
+    },
+    "type": "library",
+    "require": {
+        "pear/pear_exception": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
